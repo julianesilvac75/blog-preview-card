@@ -15,6 +15,13 @@ body {
   font-family: 'Figtree', sans-serif;
 }
 
+.main-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
 .section-container {
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 7%);
