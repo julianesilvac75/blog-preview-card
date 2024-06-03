@@ -14,3 +14,15 @@ body {
   background-color: hsl(47, 88%, 63%);
   font-family: 'Figtree', sans-serif;
 }
+
+.section-container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 24px;
+  width: 327px;
+}
+
+.post-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
