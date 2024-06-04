@@ -71,8 +71,23 @@ time {
 }
 
 .post-summary {
-  /* font-size: 16px; */
   color: hsl(0, 0%, 50%);
   line-height: 150%;
   font-weight: lighter;
+}
+
+.author-details-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-details-container img {
+  width: 32px;
+}
+
+.author-details-container a {
+  color: hsl(0, 0%, 7%);
+  text-decoration: none;
+  font-weight: 800;
 }
