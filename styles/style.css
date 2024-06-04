@@ -13,6 +13,9 @@
 body {
   background-color: hsl(47, 88%, 63%);
   font-family: 'Figtree', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2px;
 }
 
 .main-container {
@@ -44,4 +47,15 @@ body {
   flex-direction: column;
   gap: 12px;
   margin: 24px auto;
+}
+
+.category-tag {
+  align-self: flex-start;
+  text-align: center;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0px;
 }
