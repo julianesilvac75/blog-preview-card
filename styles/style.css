@@ -14,8 +14,7 @@ body {
   background-color: hsl(47, 88%, 63%);
   font-family: 'Figtree', sans-serif;
   font-weight: 500;
-  font-size: 14px;
-  /* letter-spacing: 0.2px; */
+  font-size: 16px;
 }
 
 .main-container {
@@ -31,7 +30,7 @@ body {
   border-radius: 20px;
   box-shadow: 7px 7px hsl(0, 0%, 7%);
   padding: 24px;
-  width: 327px;
+  width: 24rem;
 }
 
 .post-img {
@@ -39,7 +38,6 @@ body {
   height: 200px;
   width: 100%;
   object-fit: cover;
-  /* margin-bottom: 24px; */
 }
 
 .post-details-container {
@@ -55,18 +53,19 @@ body {
   background-color: hsl(47, 88%, 63%);
   border-radius: 4px;
   padding: 4px 12px;
-  font-size: 12px;
+  font-size: 0.875rem;
   font-weight: 800;
   line-height: 150%;
 }
 
 time {
   line-height: 150%;
+  font-size: 0.875rem;
 }
 
 .post-title {
   line-height: 150%;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 
@@ -83,13 +82,14 @@ time {
 }
 
 .author-details-container img {
-  width: 32px;
+  width: 2rem;
 }
 
 .author-details-container a {
   color: hsl(0, 0%, 7%);
   text-decoration: none;
   font-weight: 800;
+  font-size: 0.875rem;
 }
 
 footer {
@@ -101,7 +101,7 @@ footer {
 
 footer span {
   color: hsl(0, 0%, 7%);
-  font-size: smaller;
+  font-size: 0.75rem;
 }
 
 footer span a {
