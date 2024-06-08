@@ -58,6 +58,12 @@ body {
   line-height: 150%;
 }
 
+.category-tag:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+  background-color: hsl(0, 0%, 7%);
+}
+
 time {
   line-height: 150%;
   font-size: 0.875rem;
@@ -70,6 +76,7 @@ time {
 }
 
 .post-title:hover {
+  cursor: pointer;
   color: hsl(47, 88%, 63%);
 }
 
@@ -83,6 +90,14 @@ time {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.author-details-container:hover{
+  cursor: pointer;
+}
+
+.author-details-container:hover a {
+  color: hsl(47, 88%, 63%);
 }
 
 .author-details-container img {
