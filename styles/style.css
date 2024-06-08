@@ -69,6 +69,10 @@ time {
   font-weight: 800;
 }
 
+.post-title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
 .post-summary {
   color: hsl(0, 0%, 50%);
   line-height: 150%;
